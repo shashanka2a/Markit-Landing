@@ -36,7 +36,7 @@ export default function Home() {
               />
               <ProductCard
                 title="QRBee"
-                description="Generate & track QR codes effortlessly."
+                description="Generate QR codes in seconds."
                 iconName="QrCode"
                 gradient="from-green-500 to-emerald-400"
                 url="https://qrbee.xyz/"

@@ -38,7 +38,7 @@ export function ProductCard({ title, description, iconName, gradient, url }: Pro
             <Icon className="h-10 w-10 text-white" />
           </div>
           <CardTitle className="text-left text-white mb-3 text-xl">{title}</CardTitle>
-          <CardDescription className="text-left text-slate-300 leading-relaxed text-sm">
+          <CardDescription className="text-left text-slate-300 leading-relaxed text-sm min-h-[20px]">
             {description}
           </CardDescription>
         </CardHeader>
