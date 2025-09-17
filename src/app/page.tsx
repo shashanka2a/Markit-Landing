@@ -32,18 +32,21 @@ export default function Home() {
                 description="Create beautiful, responsive forms with ease. Collect data, manage submissions, and integrate with your favorite tools."
                 iconName="FileText"
                 gradient="from-blue-500 to-cyan-400"
+                url="https://formease.xyz/"
               />
               <ProductCard
                 title="QRBee"
                 description="Generate, customize, and track QR codes for all your needs. Perfect for marketing campaigns and digital experiences."
                 iconName="QrCode"
                 gradient="from-green-500 to-emerald-400"
+                url="https://qrbee.xyz/"
               />
               <ProductCard
                 title="HackHire"
                 description="Streamline your hiring process with smart tools for candidate tracking, interview scheduling, and team collaboration."
                 iconName="Users"
                 gradient="from-purple-500 to-pink-400"
+                url="https://hackhire.dev/"
               />
             </div>
           </div>

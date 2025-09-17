@@ -9,6 +9,7 @@ interface ProductCardProps {
   description: string;
   iconName: "FileText" | "QrCode" | "Users";
   gradient: string;
+  url: string;
 }
 
 const iconMap: Record<string, LucideIcon> = {
@@ -17,7 +18,7 @@ const iconMap: Record<string, LucideIcon> = {
   Users: Users,
 };
 
-export function ProductCard({ title, description, iconName, gradient }: ProductCardProps) {
+export function ProductCard({ title, description, iconName, gradient, url }: ProductCardProps) {
   const Icon = iconMap[iconName];
   
   if (!Icon) {
@@ -42,7 +43,11 @@ export function ProductCard({ title, description, iconName, gradient }: ProductC
           </CardDescription>
         </CardHeader>
         <CardContent className="relative pt-0">
-          <Button variant="ghost" className="group/btn p-0 h-auto text-slate-200 hover:text-white transition-colors">
+          <Button 
+            variant="ghost" 
+            className="group/btn p-0 h-auto text-slate-200 hover:text-white transition-colors"
+            onClick={() => window.open(url, '_blank')}
+          >
             Learn more
             <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover/btn:translate-x-1" />
           </Button>
