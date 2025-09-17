@@ -6,7 +6,7 @@ import { MarkitLogo } from "./MarkitLogo";
 
 export function Hero() {
   return (
-    <section className="relative px-6 py-32 text-center overflow-hidden">
+    <section className="relative px-4 sm:px-6 py-20 sm:py-32 text-center overflow-hidden">
       {/* Floating elements */}
       <div className="absolute top-20 left-1/4 w-2 h-2 bg-blue-400 rounded-full animate-bounce" />
       <div className="absolute top-32 right-1/3 w-1 h-1 bg-purple-400 rounded-full animate-ping" />
@@ -22,23 +22,23 @@ export function Hero() {
       </div>
       
       {/* Supporting line */}
-      <p className="text-lg md:text-xl text-slate-300 mb-4 max-w-2xl mx-auto">
+      <p className="text-base sm:text-lg md:text-xl text-slate-300 mb-4 max-w-2xl mx-auto px-4">
         Simplify forms, QR codes, and hiring — all in one place.
       </p>
       
       {/* Tagline */}
-      <p className="text-sm md:text-base text-slate-400 mb-12 max-w-xl mx-auto leading-relaxed">
+      <p className="text-sm md:text-base text-slate-400 mb-8 sm:mb-12 max-w-xl mx-auto leading-relaxed px-4">
         One hub, many SaaS tools
       </p>
       
       {/* CTA Button */}
       <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-        <Button size="lg" className="group relative overflow-hidden bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white border-0 shadow-lg hover:shadow-xl transition-all duration-300">
+        <Button size="lg" className="group relative overflow-hidden bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white border-0 shadow-lg hover:shadow-xl transition-all duration-300 w-full sm:w-auto">
           <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
           Get Started
           <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
         </Button>
-        <Button variant="secondary" size="lg" className="bg-slate-800/50 border border-slate-600/50 text-white hover:bg-slate-700 hover:border-slate-500 transition-all duration-300 backdrop-blur-sm">
+        <Button variant="secondary" size="lg" className="bg-slate-800/50 border border-slate-600/50 text-white hover:bg-slate-700 hover:border-slate-500 transition-all duration-300 backdrop-blur-sm w-full sm:w-auto">
           Watch Demo
         </Button>
       </div>

@@ -14,7 +14,7 @@ export default function Home() {
         <Hero />
         
         {/* Products Section */}
-        <section className="px-6 py-20 relative">
+        <section className="px-4 sm:px-6 py-16 sm:py-20 relative">
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-slate-800/30 to-transparent" />
           <div className="max-w-6xl mx-auto relative">
             <div className="text-center mb-16">
@@ -26,7 +26,7 @@ export default function Home() {
               </p>
             </div>
             
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
               <ProductCard
                 title="FormEase"
                 description="Build forms in minutes, no coding."
