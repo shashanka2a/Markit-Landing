@@ -21,8 +21,13 @@ export function Hero() {
         </div>
       </div>
       
+      {/* Supporting line */}
+      <p className="text-lg md:text-xl text-slate-300 mb-4 max-w-2xl mx-auto">
+        Simplify forms, QR codes, and hiring — all in one place.
+      </p>
+      
       {/* Tagline */}
-      <p className="text-xl md:text-3xl text-slate-200 mb-12 max-w-3xl mx-auto leading-relaxed">
+      <p className="text-sm md:text-base text-slate-400 mb-12 max-w-xl mx-auto leading-relaxed">
         One hub, many SaaS tools
       </p>
       
@@ -33,7 +38,7 @@ export function Hero() {
           Get Started
           <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
         </Button>
-        <Button variant="outline" size="lg" className="border-slate-600 text-slate-200 hover:bg-slate-800 hover:text-white transition-colors">
+        <Button variant="secondary" size="lg" className="bg-slate-800/50 border border-slate-600/50 text-white hover:bg-slate-700 hover:border-slate-500 transition-all duration-300 backdrop-blur-sm">
           Watch Demo
         </Button>
       </div>

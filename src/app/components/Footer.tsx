@@ -12,10 +12,13 @@ export function Footer() {
         {/* CTA Section */}
         <div className="text-center mb-16 p-8 rounded-2xl bg-gradient-to-r from-blue-600/10 to-purple-600/10 border border-slate-700/50 backdrop-blur-sm">
           <h3 className="mb-4 bg-gradient-to-r from-white to-slate-300 bg-clip-text text-transparent">
-            Ready to streamline your workflow?
+            Start building smarter workflows today — free.
           </h3>
-          <p className="text-slate-300 mb-6 max-w-2xl mx-auto">
+          <p className="text-slate-300 mb-2 max-w-2xl mx-auto">
             Join thousands of teams already using Markit.one to boost their productivity.
+          </p>
+          <p className="text-sm text-slate-400 mb-6">
+            No credit card required
           </p>
           <Button size="lg" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white border-0">
             Start Free Trial
