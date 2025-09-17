@@ -44,12 +44,12 @@ export function ProductCard({ title, description, iconName, gradient, url }: Pro
         </CardHeader>
         <CardContent className="relative pt-0">
           <Button 
-            variant="ghost" 
-            className="group/btn p-0 h-auto text-slate-200 hover:text-white transition-colors"
+            variant="outline" 
+            className="group/btn bg-gradient-to-r from-blue-600/20 to-purple-600/20 border-blue-500/50 text-blue-300 hover:bg-gradient-to-r hover:from-blue-600/40 hover:to-purple-600/40 hover:text-white hover:border-blue-400 transition-all duration-200 w-full justify-center"
             asChild
           >
             <a href={url} target="_blank" rel="noopener noreferrer">
-              Learn more
+              Try it now
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover/btn:translate-x-1" />
             </a>
           </Button>

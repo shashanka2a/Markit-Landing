@@ -6,10 +6,10 @@ interface MarkitLogoProps {
 
 export function MarkitLogo({ className = "", variant = 'default', size = 'md' }: MarkitLogoProps) {
   const sizeClasses = {
-    sm: 'w-24 h-8',
-    md: 'w-32 h-10',
-    lg: 'w-48 h-16',
-    xl: 'w-64 h-20'
+    sm: 'w-28 h-10',
+    md: 'w-40 h-12',
+    lg: 'w-56 h-18',
+    xl: 'w-80 h-24'
   };
 
   const getColors = () => {
@@ -112,7 +112,7 @@ export function MarkitLogo({ className = "", variant = 'default', size = 'md' }:
           Markit
         </text>
         <text 
-          x="110" 
+          x="102" 
           y="30" 
           fill={colors.accent}
           fontSize="32"
