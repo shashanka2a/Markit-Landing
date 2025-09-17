@@ -2,16 +2,28 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
 import { Button } from "./ui/button";
-import { ArrowRight, LucideIcon } from "lucide-react";
+import { ArrowRight, FileText, QrCode, Users, LucideIcon } from "lucide-react";
 
 interface ProductCardProps {
   title: string;
   description: string;
-  icon: LucideIcon;
+  iconName: "FileText" | "QrCode" | "Users";
   gradient: string;
 }
 
-export function ProductCard({ title, description, icon: Icon, gradient }: ProductCardProps) {
+const iconMap: Record<string, LucideIcon> = {
+  FileText: FileText,
+  QrCode: QrCode,
+  Users: Users,
+};
+
+export function ProductCard({ title, description, iconName, gradient }: ProductCardProps) {
+  const Icon = iconMap[iconName];
+  
+  if (!Icon) {
+    console.error(`Icon "${iconName}" not found in iconMap`);
+    return null;
+  }
   return (
     <Card className="group relative overflow-hidden transition-all duration-500 hover:scale-105 border border-slate-700/50 bg-slate-800/50 backdrop-blur-xl hover:border-slate-600">
       {/* Hover glow effect */}

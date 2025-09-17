@@ -1,7 +1,6 @@
 import { Hero } from "./components/Hero";
 import { ProductCard } from "./components/ProductCard";
 import { Footer } from "./components/Footer";
-import { FileText, QrCode, Users } from "lucide-react";
 
 export default function Home() {
   return (
@@ -31,19 +30,19 @@ export default function Home() {
               <ProductCard
                 title="FormEase"
                 description="Create beautiful, responsive forms with ease. Collect data, manage submissions, and integrate with your favorite tools."
-                icon={FileText}
+                iconName="FileText"
                 gradient="from-blue-500 to-cyan-400"
               />
               <ProductCard
                 title="QRBee"
                 description="Generate, customize, and track QR codes for all your needs. Perfect for marketing campaigns and digital experiences."
-                icon={QrCode}
+                iconName="QrCode"
                 gradient="from-green-500 to-emerald-400"
               />
               <ProductCard
                 title="HackHire"
                 description="Streamline your hiring process with smart tools for candidate tracking, interview scheduling, and team collaboration."
-                icon={Users}
+                iconName="Users"
                 gradient="from-purple-500 to-pink-400"
               />
             </div>
