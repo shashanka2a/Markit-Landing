@@ -14,7 +14,7 @@ export default function Home() {
         <Hero />
         
         {/* Products Section */}
-        <section className="px-4 sm:px-6 py-16 sm:py-20 relative">
+        <section id="products" className="px-4 sm:px-6 py-16 sm:py-20 relative">
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-slate-800/30 to-transparent" />
           <div className="max-w-6xl mx-auto relative">
             <div className="text-center mb-16">

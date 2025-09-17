@@ -33,13 +33,17 @@ export function Hero() {
       
       {/* CTA Button */}
       <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-        <Button size="lg" className="group relative overflow-hidden bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white border-0 shadow-lg hover:shadow-xl transition-all duration-300 w-full sm:w-auto">
-          <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-          Get Started
-          <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+        <Button size="lg" className="group relative overflow-hidden bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white border-0 shadow-lg hover:shadow-xl transition-all duration-300 w-full sm:w-auto" asChild>
+          <a href="#products">
+            <div className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
+            Get Started
+            <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+          </a>
         </Button>
-        <Button variant="secondary" size="lg" className="bg-slate-800/50 border border-slate-600/50 text-white hover:bg-slate-700 hover:border-slate-500 transition-all duration-300 backdrop-blur-sm w-full sm:w-auto">
-          Watch Demo
+        <Button variant="secondary" size="lg" className="bg-slate-800/50 border border-slate-600/50 text-white hover:bg-slate-700 hover:border-slate-500 transition-all duration-300 backdrop-blur-sm w-full sm:w-auto" asChild>
+          <a href="#demo">
+            Watch Demo
+          </a>
         </Button>
       </div>
     </section>

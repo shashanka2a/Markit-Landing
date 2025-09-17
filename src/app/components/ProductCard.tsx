@@ -46,10 +46,12 @@ export function ProductCard({ title, description, iconName, gradient, url }: Pro
           <Button 
             variant="ghost" 
             className="group/btn p-0 h-auto text-slate-200 hover:text-white transition-colors"
-            onClick={() => window.open(url, '_blank')}
+            asChild
           >
-            Learn more
-            <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover/btn:translate-x-1" />
+            <a href={url} target="_blank" rel="noopener noreferrer">
+              Learn more
+              <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover/btn:translate-x-1" />
+            </a>
           </Button>
         </CardContent>
       </div>

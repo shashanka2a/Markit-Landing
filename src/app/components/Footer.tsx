@@ -43,9 +43,9 @@ export function Footer() {
           <div className="space-y-4">
             <h4 className="text-white font-semibold">Products</h4>
             <ul className="space-y-3 text-sm text-slate-400">
-              <li><a href="https://formease.xyz/" target="_blank" className="hover:text-white transition-colors hover:translate-x-1 inline-block duration-200">FormEase</a></li>
-              <li><a href="https://qrbee.xyz/" target="_blank" className="hover:text-white transition-colors hover:translate-x-1 inline-block duration-200">QRBee</a></li>
-              <li><a href="https://hackhire.dev/" target="_blank" className="hover:text-white transition-colors hover:translate-x-1 inline-block duration-200">HackHire</a></li>
+              <li><a href="https://formease.xyz/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors hover:translate-x-1 inline-block duration-200">FormEase</a></li>
+              <li><a href="https://qrbee.xyz/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors hover:translate-x-1 inline-block duration-200">QRBee</a></li>
+              <li><a href="https://hackhire.dev/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors hover:translate-x-1 inline-block duration-200">HackHire</a></li>
             </ul>
           </div>
           
@@ -73,17 +73,25 @@ export function Footer() {
             <div className="space-y-4">
               <h4 className="text-white font-semibold">Connect</h4>
               <div className="flex space-x-3">
-                <Button variant="ghost" size="icon" className="h-10 w-10 border border-slate-700 hover:border-slate-600 text-slate-400 hover:text-white hover:bg-slate-800 transition-all duration-200" title="Twitter">
-                  <Twitter className="h-4 w-4" />
+                <Button variant="ghost" size="icon" className="h-10 w-10 border border-slate-700 hover:border-slate-600 text-slate-400 hover:text-white hover:bg-slate-800 transition-all duration-200" asChild>
+                  <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Twitter" title="Twitter">
+                    <Twitter className="h-4 w-4" />
+                  </a>
                 </Button>
-                <Button variant="ghost" size="icon" className="h-10 w-10 border border-slate-700 hover:border-slate-600 text-slate-400 hover:text-white hover:bg-slate-800 transition-all duration-200" title="GitHub">
-                  <Github className="h-4 w-4" />
+                <Button variant="ghost" size="icon" className="h-10 w-10 border border-slate-700 hover:border-slate-600 text-slate-400 hover:text-white hover:bg-slate-800 transition-all duration-200" asChild>
+                  <a href="#" target="_blank" rel="noopener noreferrer" aria-label="View our GitHub" title="GitHub">
+                    <Github className="h-4 w-4" />
+                  </a>
                 </Button>
-                <Button variant="ghost" size="icon" className="h-10 w-10 border border-slate-700 hover:border-slate-600 text-slate-400 hover:text-white hover:bg-slate-800 transition-all duration-200" title="LinkedIn">
-                  <Linkedin className="h-4 w-4" />
+                <Button variant="ghost" size="icon" className="h-10 w-10 border border-slate-700 hover:border-slate-600 text-slate-400 hover:text-white hover:bg-slate-800 transition-all duration-200" asChild>
+                  <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Connect on LinkedIn" title="LinkedIn">
+                    <Linkedin className="h-4 w-4" />
+                  </a>
                 </Button>
-                <Button variant="ghost" size="icon" className="h-10 w-10 border border-slate-700 hover:border-slate-600 text-slate-400 hover:text-white hover:bg-slate-800 transition-all duration-200" title="Email">
-                  <Mail className="h-4 w-4" />
+                <Button variant="ghost" size="icon" className="h-10 w-10 border border-slate-700 hover:border-slate-600 text-slate-400 hover:text-white hover:bg-slate-800 transition-all duration-200" asChild>
+                  <a href="mailto:hello@markit.one" aria-label="Send us an email" title="Email">
+                    <Mail className="h-4 w-4" />
+                  </a>
                 </Button>
               </div>
             </div>
