@@ -33,19 +33,19 @@ export function ProductCard({ title, description, iconName, gradient, url }: Pro
       
       {/* Card content */}
       <div className="relative bg-slate-800/70 backdrop-blur-sm h-full">
-        <CardHeader className="relative">
+        <CardHeader className="relative pb-4">
           <div className={`mb-6 p-6 rounded-2xl bg-gradient-to-br ${gradient} w-fit shadow-lg group-hover:shadow-xl transition-all duration-300 group-hover:scale-110`}>
             <Icon className="h-10 w-10 text-white" />
           </div>
-          <CardTitle className="text-left text-white mb-3 text-xl">{title}</CardTitle>
-          <CardDescription className="text-left text-slate-300 leading-relaxed text-sm min-h-[20px]">
+          <CardTitle className="text-left text-white mb-4 text-xl">{title}</CardTitle>
+          <CardDescription className="text-left text-slate-300 leading-relaxed text-sm min-h-[20px] mb-6">
             {description}
           </CardDescription>
         </CardHeader>
-        <CardContent className="relative pt-0">
+        <CardContent className="relative pt-0 pb-6">
           <Button 
-            variant="outline" 
-            className="group/btn bg-gradient-to-r from-blue-600/20 to-purple-600/20 border-blue-500/50 text-blue-300 hover:bg-gradient-to-r hover:from-blue-600/40 hover:to-purple-600/40 hover:text-white hover:border-blue-400 transition-all duration-200 w-full justify-center"
+            size="lg"
+            className="group/btn bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold border-0 shadow-lg hover:shadow-xl transition-all duration-200 w-full justify-center py-3"
             asChild
           >
             <a href={url} target="_blank" rel="noopener noreferrer">
