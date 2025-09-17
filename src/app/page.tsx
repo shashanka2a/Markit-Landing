@@ -22,7 +22,7 @@ export default function Home() {
                 Our Products
               </h2>
               <p className="text-slate-300 max-w-2xl mx-auto text-lg">
-                Discover our suite of powerful tools designed to streamline your workflow and boost productivity.
+                Essential tools built for startups to launch faster, scale smarter, and focus on what matters.
               </p>
             </div>
             
