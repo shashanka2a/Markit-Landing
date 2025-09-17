@@ -29,21 +29,21 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <ProductCard
                 title="FormEase"
-                description="Create beautiful, responsive forms with ease. Collect data, manage submissions, and integrate with your favorite tools."
+                description="Build forms in minutes, no coding."
                 iconName="FileText"
                 gradient="from-blue-500 to-cyan-400"
                 url="https://formease.xyz/"
               />
               <ProductCard
                 title="QRBee"
-                description="Generate, customize, and track QR codes for all your needs. Perfect for marketing campaigns and digital experiences."
+                description="Generate & track QR codes effortlessly."
                 iconName="QrCode"
                 gradient="from-green-500 to-emerald-400"
                 url="https://qrbee.xyz/"
               />
               <ProductCard
                 title="HackHire"
-                description="Streamline your hiring process with smart tools for candidate tracking, interview scheduling, and team collaboration."
+                description="Streamline hiring with smart tools."
                 iconName="Users"
                 gradient="from-purple-500 to-pink-400"
                 url="https://hackhire.dev/"
