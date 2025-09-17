@@ -1,0 +1,46 @@
+[07:00:17.944] Running build in Washington, D.C., USA (East) – iad1
+[07:00:17.945] Build machine configuration: 2 cores, 8 GB
+[07:00:17.985] Cloning github.com/shashanka2a/Markit-Landing (Branch: main, Commit: bb6fd5d)
+[07:00:18.210] Previous build caches not available
+[07:00:23.264] Cloning completed: 5.278s
+[07:00:23.611] Running "vercel build"
+[07:00:23.995] Vercel CLI 47.1.1
+[07:00:24.297] WARNING: You should not upload the `.next` directory.
+[07:00:24.306] Installing dependencies...
+[07:00:25.892] npm error code ERESOLVE
+[07:00:25.895] npm error ERESOLVE could not resolve
+[07:00:25.896] npm error
+[07:00:25.896] npm error While resolving: react-day-picker@8.10.1
+[07:00:25.896] npm error Found: react@19.1.1
+[07:00:25.897] npm error node_modules/react
+[07:00:25.897] npm error   react@"^19.0.0" from the root project
+[07:00:25.897] npm error   peer react@">=16.8.0" from @floating-ui/react-dom@2.1.6
+[07:00:25.897] npm error   node_modules/@floating-ui/react-dom
+[07:00:25.897] npm error     @floating-ui/react-dom@"^2.0.0" from @radix-ui/react-popper@1.2.8
+[07:00:25.898] npm error     node_modules/@radix-ui/react-popper
+[07:00:25.898] npm error       @radix-ui/react-popper@"1.2.8" from @radix-ui/react-hover-card@1.1.15
+[07:00:25.898] npm error       node_modules/@radix-ui/react-hover-card
+[07:00:25.898] npm error         @radix-ui/react-hover-card@"^1.1.6" from the root project
+[07:00:25.899] npm error       4 more (@radix-ui/react-menu, @radix-ui/react-popover, ...)
+[07:00:25.899] npm error   72 more (@radix-ui/react-accordion, ...)
+[07:00:25.899] npm error
+[07:00:25.899] npm error Could not resolve dependency:
+[07:00:25.900] npm error peer react@"^16.8.0 || ^17.0.0 || ^18.0.0" from react-day-picker@8.10.1
+[07:00:25.900] npm error node_modules/react-day-picker
+[07:00:25.900] npm error   react-day-picker@"^8.10.1" from the root project
+[07:00:25.900] npm error
+[07:00:25.900] npm error Conflicting peer dependency: react@18.3.1
+[07:00:25.901] npm error node_modules/react
+[07:00:25.901] npm error   peer react@"^16.8.0 || ^17.0.0 || ^18.0.0" from react-day-picker@8.10.1
+[07:00:25.901] npm error   node_modules/react-day-picker
+[07:00:25.901] npm error     react-day-picker@"^8.10.1" from the root project
+[07:00:25.901] npm error
+[07:00:25.902] npm error Fix the upstream dependency conflict, or retry
+[07:00:25.902] npm error this command with --force or --legacy-peer-deps
+[07:00:25.902] npm error to accept an incorrect (and potentially broken) dependency resolution.
+[07:00:25.902] npm error
+[07:00:25.903] npm error
+[07:00:25.903] npm error For a full report see:
+[07:00:25.903] npm error /vercel/.npm/_logs/2025-09-17T11_00_24_533Z-eresolve-report.txt
+[07:00:25.903] npm error A complete log of this run can be found in: /vercel/.npm/_logs/2025-09-17T11_00_24_533Z-debug-0.log
+[07:00:25.933] Error: Command "npm install" exited with 1
