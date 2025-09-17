@@ -755,6 +755,12 @@ video {
 .top-full {
   top: 100%;
 }
+.-right-2 {
+  right: -0.5rem;
+}
+.-top-2 {
+  top: -0.5rem;
+}
 .isolate {
   isolation: isolate;
 }
@@ -988,6 +994,12 @@ video {
 .h-svh {
   height: 100svh;
 }
+.h-16 {
+  height: 4rem;
+}
+.h-20 {
+  height: 5rem;
+}
 .max-h-\[300px\] {
   max-height: 300px;
 }
@@ -1067,6 +1079,15 @@ video {
 }
 .w-px {
   width: 1px;
+}
+.w-24 {
+  width: 6rem;
+}
+.w-32 {
+  width: 8rem;
+}
+.w-48 {
+  width: 12rem;
 }
 .min-w-0 {
   min-width: 0px;

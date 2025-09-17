@@ -2,6 +2,7 @@
 
 import { Button } from "./ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
+import { MarkitLogo } from "./MarkitLogo";
 
 export function Hero() {
   return (
@@ -12,12 +13,12 @@ export function Hero() {
       <div className="absolute bottom-20 left-1/3 w-1.5 h-1.5 bg-cyan-400 rounded-full animate-pulse" />
       
       {/* Logo */}
-      <div className="mb-8 relative">
+      <div className="mb-8 relative flex justify-center">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 blur-3xl opacity-30 animate-pulse" />
-        <h1 className="relative text-5xl md:text-7xl mb-4 bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent animate-gradient">
-          Markit.one
-        </h1>
-        <Sparkles className="absolute -top-4 -right-4 h-8 w-8 text-yellow-400 animate-spin" />
+        <div className="relative">
+          <MarkitLogo size="xl" variant="default" className="mx-auto" />
+          <Sparkles className="absolute -top-2 -right-2 h-8 w-8 text-yellow-400 animate-spin" />
+        </div>
       </div>
       
       {/* Tagline */}
