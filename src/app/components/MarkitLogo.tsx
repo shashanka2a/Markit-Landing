@@ -112,7 +112,7 @@ export function MarkitLogo({ className = "", variant = 'default', size = 'md' }:
           Markit
         </text>
         <text 
-          x="128" 
+          x="110" 
           y="30" 
           fill={colors.accent}
           fontSize="32"
