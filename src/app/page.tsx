@@ -18,7 +18,7 @@ export default function Home() {
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-slate-800/30 to-transparent" />
           <div className="max-w-6xl mx-auto relative">
             <div className="text-center mb-16">
-              <h2 className="mb-6 bg-gradient-to-r from-white via-blue-200 to-purple-200 bg-clip-text text-transparent">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 bg-gradient-to-r from-white via-blue-200 to-purple-200 bg-clip-text text-transparent tracking-tight">
                 Our Products
               </h2>
               <p className="text-slate-300 max-w-2xl mx-auto text-lg">

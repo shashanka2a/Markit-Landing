@@ -11,7 +11,7 @@ export function Footer() {
       <div className="max-w-6xl mx-auto relative">
         {/* CTA Section */}
         <div className="text-center mb-16 p-6 sm:p-8 rounded-2xl bg-gradient-to-r from-blue-600/10 to-purple-600/10 border border-slate-700/50 backdrop-blur-sm">
-          <h3 className="mb-4 bg-gradient-to-r from-white to-slate-300 bg-clip-text text-transparent">
+          <h3 className="text-2xl md:text-3xl font-bold mb-4 bg-gradient-to-r from-white to-slate-300 bg-clip-text text-transparent tracking-tight">
             Start building smarter workflows today — free.
           </h3>
           <p className="text-slate-300 mb-2 max-w-2xl mx-auto">
@@ -31,7 +31,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="space-y-4">
-            <h3 className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+            <h3 className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
               Markit.one
             </h3>
             <p className="text-sm text-slate-400 leading-relaxed">
@@ -41,7 +41,7 @@ export function Footer() {
           
           {/* Products */}
           <div className="space-y-4">
-            <h4 className="text-white font-semibold">Products</h4>
+            <h4 className="text-lg font-semibold text-white">Products</h4>
             <ul className="space-y-3 text-sm text-slate-400">
               <li><a href="https://formease.xyz/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors hover:translate-x-1 inline-block duration-200">FormEase</a></li>
               <li><a href="https://qrbee.xyz/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors hover:translate-x-1 inline-block duration-200">QRBee</a></li>
@@ -51,7 +51,7 @@ export function Footer() {
           
           {/* Resources */}
           <div className="space-y-4">
-            <h4 className="text-white font-semibold">Resources</h4>
+            <h4 className="text-lg font-semibold text-white">Resources</h4>
             <ul className="space-y-3 text-sm text-slate-400">
               <li><a href="#" className="hover:text-white transition-colors hover:translate-x-1 inline-block duration-200">Documentation</a></li>
               <li><a href="#" className="hover:text-white transition-colors hover:translate-x-1 inline-block duration-200">API Reference</a></li>
@@ -63,7 +63,7 @@ export function Footer() {
           {/* Company & Social */}
           <div className="space-y-6">
             <div className="space-y-4">
-              <h4 className="text-white font-semibold">Company</h4>
+              <h4 className="text-lg font-semibold text-white">Company</h4>
               <ul className="space-y-3 text-sm text-slate-400">
                 <li><a href="#" className="hover:text-white transition-colors hover:translate-x-1 inline-block duration-200">About</a></li>
                 <li><a href="#" className="hover:text-white transition-colors hover:translate-x-1 inline-block duration-200">Privacy</a></li>
@@ -71,7 +71,7 @@ export function Footer() {
               </ul>
             </div>
             <div className="space-y-4">
-              <h4 className="text-white font-semibold">Connect</h4>
+              <h4 className="text-lg font-semibold text-white">Connect</h4>
               <div className="flex space-x-3">
                 <Button variant="ghost" size="icon" className="h-10 w-10 border border-slate-700 hover:border-slate-600 text-slate-400 hover:text-white hover:bg-slate-800 transition-all duration-200" asChild>
                   <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Twitter" title="Twitter">
