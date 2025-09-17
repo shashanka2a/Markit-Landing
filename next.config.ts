@@ -4,12 +4,9 @@ const nextConfig: NextConfig = {
   output: 'standalone',
   poweredByHeader: false,
   reactStrictMode: true,
-  swcMinify: true,
-  experimental: {
-    turbo: {
-      resolveAlias: {
-        canvas: './empty-module.ts',
-      },
+  turbopack: {
+    resolveAlias: {
+      canvas: './src/empty-module.ts',
     },
   },
 }
